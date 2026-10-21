@@ -1,1 +1,479 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101713">
 
+  <meta
+    name="description"
+    content="Portofolio Muhammad Apriyansyah, mahasiswa Informatics Engineering di Horizon University."
+  >
+
+  <title>Muhammad Apriyansyah | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <a class="logo" href="#home" aria-label="Kembali ke beranda">
+      ma<span>.</span>
+    </a>
+
+    <nav aria-label="Navigasi utama">
+      <a href="#about">Tentang</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#lab">Lab</a>
+    </nav>
+
+    <a class="nav-contact" href="#contact">
+      Let’s connect ↗
+    </a>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          SYSTEM ONLINE / PORTFOLIO V.01
+        </div>
+
+        <h1>
+          Human curiosity.<br>
+          Digital <em>possibilities.</em>
+        </h1>
+
+        <p class="hero-description">
+          Halo, saya <strong>Muhammad Apriyansyah.</strong><br>
+          Mahasiswa Informatics Engineering yang mengeksplorasi
+          titik temu antara code, design, dan teknologi.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button" href="#skills">
+            Jelajahi keahlian <span>↗</span>
+          </a>
+
+          <a class="text-link" href="#about">
+            Kenali saya ↓
+          </a>
+        </div>
+
+        <div class="hero-signature">
+          <span class="star">✳</span>
+
+          <p>
+            BUILT WITH CURIOSITY.<br>
+            DRIVEN BY POSSIBILITY.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="digital-art"
+        role="img"
+        aria-label="Ilustrasi inti digital hijau dengan orbit beranimasi"
+      >
+        <div class="art-grid"></div>
+
+        <div class="art-header">
+          <span>
+            <span class="status-dot"></span>
+            NEURAL CORE
+          </span>
+
+          <span>ACTIVE</span>
+        </div>
+
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+
+        <div class="digital-core">
+          <div class="core-inner"></div>
+        </div>
+
+        <span class="art-cross cross-one">+</span>
+        <span class="art-cross cross-two">+</span>
+
+        <span class="art-side">
+          EXPLORING THE NEXT ITERATION
+        </span>
+
+        <div class="art-footer">
+          <span>FIG. 001 — THE DIGITAL SELF</span>
+          <span>∞</span>
+        </div>
+      </div>
+
+      <div class="hero-bottom">
+        <span>SCROLL TO EXPLORE ↓</span>
+        <span>CODE / CREATE / CONNECT</span>
+      </div>
+    </section>
+
+    <!-- MOVING TEXT -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>
+          FULL-STACK DEVELOPMENT ✳ UI/UX DESIGN ✳
+          CYBERSECURITY ✳ EMBEDDED SYSTEMS ✳
+        </span>
+
+        <span>
+          FULL-STACK DEVELOPMENT ✳ UI/UX DESIGN ✳
+          CYBERSECURITY ✳ EMBEDDED SYSTEMS ✳
+        </span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section reveal" id="about">
+      <p class="section-label">
+        01 / THE HUMAN BEHIND THE CODE
+      </p>
+
+      <div class="about-grid">
+        <h2>
+          Selalu penasaran.<br>
+          Terus <em>bertumbuh.</em>
+        </h2>
+
+        <div>
+          <p class="large-copy">
+            Saya percaya teknologi dimulai dari rasa ingin tahu—
+            dan menjadi berarti saat bisa membantu manusia.
+          </p>
+
+          <p class="muted">
+            Saya Muhammad Apriyansyah, mahasiswa
+            <strong>Informatics Engineering</strong> di
+            <strong>Horizon University</strong>,
+            Faculty of Information and Computer Technology.
+          </p>
+
+          <p class="muted">
+            Saya mendalami pengembangan aplikasi, desain pengalaman
+            pengguna, keamanan digital, hingga sistem yang
+            menghubungkan software dengan dunia fisik.
+          </p>
+
+          <div class="education">
+            <span class="education-arrow">↗</span>
+
+            <div>
+              <span class="small-label">CURRENT CHAPTER</span>
+              <h3>Horizon University</h3>
+
+              <p>
+                Informatics Engineering<br>
+                Faculty of Information and Computer Technology
+              </p>
+            </div>
+
+            <span class="tag">STUDENT</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills-section reveal" id="skills">
+      <p class="section-label">
+        02 / AREAS OF EXPLORATION
+      </p>
+
+      <div class="section-heading">
+        <h2>
+          Many interests.<br>
+          One <em>curious mind.</em>
+        </h2>
+
+        <p class="muted">
+          Dari antarmuka hingga rangkaian.<br>
+          Inilah bidang yang saya tekuni dan eksplorasi.
+        </p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter keahlian">
+        <button
+          class="filter active"
+          type="button"
+          data-filter="all"
+          aria-pressed="true"
+        >
+          Semua bidang <span>06</span>
+        </button>
+
+        <button
+          class="filter"
+          type="button"
+          data-filter="software"
+          aria-pressed="false"
+        >
+          Software & Design
+        </button>
+
+        <button
+          class="filter"
+          type="button"
+          data-filter="systems"
+          aria-pressed="false"
+        >
+          Security & Systems
+        </button>
+      </div>
+
+      <div class="skill-grid">
+        <article class="skill-card" data-category="software">
+          <div class="card-top">
+            <span class="skill-icon">&lt;/&gt;</span>
+            <span>01 ↗</span>
+          </div>
+
+          <h3>Full-Stack<br>Web Development</h3>
+
+          <p>
+            Menghubungkan front-end dan back-end untuk
+            membangun pengalaman web yang utuh.
+          </p>
+
+          <div class="card-tags">
+            <span>FRONT-END</span>
+            <span>BACK-END</span>
+          </div>
+        </article>
+
+        <article class="skill-card" data-category="software">
+          <div class="card-top">
+            <span class="skill-icon">{ }</span>
+            <span>02 ↗</span>
+          </div>
+
+          <h3>Software<br>Engineering</h3>
+
+          <p>
+            Mengembangkan cara berpikir terstruktur untuk merancang
+            software yang mudah dipelihara.
+          </p>
+
+          <div class="card-tags">
+            <span>JUNIOR</span>
+            <span>PROBLEM SOLVING</span>
+          </div>
+        </article>
+
+        <article class="skill-card" data-category="software">
+          <div class="card-top">
+            <span class="skill-icon">⌘</span>
+            <span>03 ↗</span>
+          </div>
+
+          <h3>UI/UX<br>Design</h3>
+
+          <p>
+            Mengeksplorasi antarmuka intuitif yang menyeimbangkan
+            fungsi, estetika, dan kebutuhan pengguna.
+          </p>
+
+          <div class="card-tags">
+            <span>INTERFACE</span>
+            <span>EXPERIENCE</span>
+          </div>
+        </article>
+
+        <article class="skill-card" data-category="systems">
+          <div class="card-top">
+            <span class="skill-icon">⛨</span>
+            <span>04 ↗</span>
+          </div>
+
+          <h3>Cybersecurity &<br>Ethical Hacking</h3>
+
+          <p>
+            Mempelajari keamanan sistem dan pengujian yang
+            bertanggung jawab dalam lingkungan berizin.
+          </p>
+
+          <div class="card-tags">
+            <span>SECURITY</span>
+            <span>ETHICAL HACKING</span>
+          </div>
+        </article>
+
+        <article class="skill-card" data-category="systems">
+          <div class="card-top">
+            <span class="skill-icon">⌁</span>
+            <span>05 ↗</span>
+          </div>
+
+          <h3>IoT &<br>Embedded Systems</h3>
+
+          <p>
+            Menghubungkan perangkat, mengembangkan firmware,
+            dan menjelajahi sistem tertanam.
+          </p>
+
+          <div class="card-tags">
+            <span>IoT ENGINEERING</span>
+            <span>FIRMWARE</span>
+          </div>
+        </article>
+
+        <article class="skill-card" data-category="systems">
+          <div class="card-top">
+            <span class="skill-icon">⊞</span>
+            <span>06 ↗</span>
+          </div>
+
+          <h3>Hardware &<br>Electronics Service</h3>
+
+          <p>
+            Menangani perawatan perangkat keras serta mendalami
+            diagnosis dan perbaikan elektronik.
+          </p>
+
+          <div class="card-tags">
+            <span>HARDWARE</span>
+            <span>ELECTRONICS</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="ai-note">
+        <span class="star">✳</span>
+
+        <p>
+          And always looking ahead.<br>
+          <strong>AI enthusiast — exploring what’s next.</strong>
+        </p>
+
+        <span class="small-label">
+          THE LEARNING NEVER STOPS ↗
+        </span>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE TERMINAL -->
+    <section class="section lab-section reveal" id="lab">
+      <p class="section-label">03 / INTERACTIVE LAB</p>
+
+      <div class="lab-grid">
+        <div>
+          <span class="tag">A LITTLE EXPERIMENT</span>
+
+          <h2>
+            A mind in<br>
+            <em>command.</em>
+          </h2>
+
+          <p class="muted">
+            Sedikit sisi geek dari portofolio ini.<br>
+            Ketik perintah untuk mengenal saya lebih dekat.
+          </p>
+        </div>
+
+        <div class="terminal">
+          <div class="terminal-header">
+            <span class="window-dots" aria-hidden="true">
+              <i></i><i></i><i></i>
+            </span>
+
+            <span>apri@portfolio: ~</span>
+            <span>⌘</span>
+          </div>
+
+          <div
+            class="terminal-output"
+            id="terminal-output"
+            role="log"
+            aria-live="polite"
+          >
+            <p class="terminal-green">
+              Welcome to Apri’s personal space.
+            </p>
+
+            <p>Ketik help untuk melihat daftar perintah.</p>
+          </div>
+
+          <form id="terminal-form" autocomplete="off">
+            <label for="terminal-input">
+              visitor<span>@apri</span>:~$
+            </label>
+
+            <input
+              id="terminal-input"
+              type="text"
+              placeholder="help"
+              maxlength="80"
+              spellcheck="false"
+              aria-label="Perintah terminal"
+            >
+
+            <button type="submit" aria-label="Jalankan perintah">
+              ↵
+            </button>
+          </form>
+
+          <div class="terminal-hints">
+            <button type="button" data-command="about">about</button>
+            <button type="button" data-command="skills">skills</button>
+            <button type="button" data-command="education">
+              education
+            </button>
+            <button type="button" data-command="help">help</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section reveal" id="contact">
+      <p class="section-label">04 / WHAT’S NEXT?</p>
+
+      <span class="status-pill">
+        <span class="status-dot"></span>
+        TERBUKA UNTUK BELAJAR & BERKOLABORASI
+      </span>
+
+      <h2>
+        Great things start<br>
+        with a <em>conversation.</em>
+      </h2>
+
+      <p class="muted">
+        Tertarik dengan dunia web, design, atau teknologi?<br>
+        Mari bertukar ide dan tumbuh bersama.
+      </p>
+
+      <button class="button" id="copy-name" type="button">
+        Salin nama untuk terhubung <span>↗</span>
+      </button>
+
+      <p class="contact-note" id="copy-status" role="status">
+        Muhammad Apriyansyah · Horizon University
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#home" aria-label="Kembali ke beranda">
+      ma<span>.</span>
+    </a>
+
+    <p>
+      © <span id="year">2026</span> Muhammad Apriyansyah
+    </p>
+
+    <a class="back-top" href="#home">BACK TO TOP ↑</a>
+
+    <span class="footer-note">
+      STAY CURIOUS. KEEP BUILDING.
+    </span>
+  </footer>
+</body>
+</html>
